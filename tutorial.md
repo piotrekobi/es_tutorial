@@ -16,7 +16,7 @@ Następnie konfigurujemy konto administratora maszyny. Wybieramy pożądaną naz
 
 Przechodzimy przez następne okna bez zmieniania domyślnych ustawień i klikamy przycisk "utwórz".
 
-Przed połączeniem z maszyną otworzymy na niej porty wykorzystywane przez Elasticsearch. Wchodzimy w panel maszyny i w menu bocznym klikamy przycisk "sieć". Klikamy przycisk "Dodaj regułę portu wejściowego" i wybieramy usługę "Elasticsearch", a następnie klikamy "dodaj".
+Przed połączeniem z maszyną otworzymy na niej porty wykorzystywane przez Elasticsearch. Wchodzimy w panel maszyny i w menu bocznym klikamy przycisk "sieć". Klikamy przycisk "Dodaj regułę portu wejściowego" i wybieramy usługę "Elasticsearch", a następnie klikamy "Dodaj".
 
 ![Otwarcie portów wykorzystywanych przez Elasticsearch](images/port_open.png)
 
@@ -67,7 +67,7 @@ Po jej wykonaniu powinno być możliwe połączenie się z serwerem. W celu prze
 
 ## Tworzenie aplikacji w Javie wykorzystującej Elasticsearch
 
-Następnie będziemy tworzyć prostą aplikację w Javie wykorzystującą nasz serwer Elasticsearch. Do stworzenia projektu wykorzystamy Gradle. Instrukcja instalacji gradle na różnych systemah operacyjnych dostępna jest na stronie <https://gradle.org/install/>.
+Następnie będziemy tworzyć prostą aplikację w Javie wykorzystującą nasz serwer Elasticsearch. Do stworzenia projektu wykorzystamy Gradle. Instrukcja instalacji gradle na różnych systemach operacyjnych dostępna jest na stronie <https://gradle.org/install/>.
 
 Tworzymy nowy folder i wpisujemy w terminalu `gradle init`. Jako typ projektu wybieramy aplikację (wpisujemy `2`), a resztę opcji zostawiamy domyślnych (wciskamy enter aż do rozpoczęcia budowy projektu).
 
