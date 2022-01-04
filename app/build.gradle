@@ -1,0 +1,18 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.springframework.data', name: 'spring-data-elasticsearch', version: '4.3.0'
+    implementation group: 'org.springframework', name: 'spring-web', version: '5.3.14'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.32'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.16.0'
+}
+
+application {
+    mainClass = 'es_tutorial.App'
+}
